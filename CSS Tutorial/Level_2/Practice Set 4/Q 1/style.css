@@ -1,0 +1,59 @@
+.B{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 25px;
+    border: #0f1111 solid 2px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+
+button{
+    background-color: #f08804;
+}
+
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+#box1{
+    background: orangered;
+
+}
+#box2{
+    /* background: ; */
+
+}
+#box3{
+    background: green;
+
+}
+
+
+footer{
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+}
+span{
+    color: red;
+}
+
+#content{
+    height: 1000px;
+}

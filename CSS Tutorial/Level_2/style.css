@@ -2,7 +2,7 @@ div{
 
     height: 100px;
     width: 100px;
-    background-color: pink;
+    background-color: rgba(255, 0, 0, 0.50);
     border: 2px solid brown;
     border-radius: 5px;
     /* border-width: 5px;
@@ -12,7 +12,8 @@ div{
     padding-right: 25px; */
     padding: 25px;
     margin:25px  ;
-    display: inline;
+    display: inline-block;
+
 
 }
 
@@ -29,13 +30,22 @@ div{
 /* } */ 
 
 .box1{
-background-color: blue;
+background-color: rgba(0, 0, 255, 0.5);
 }
 
 .box2{
-background-color: green;
+background-color: rgba(0, 0, 255, 0.75);
 }
 
 .box3{
-background-color: green;
+background-color: rgba(0, 0, 255, 1);
+}
+
+/* div{
+    background-color: pink;
+    display: inline;
+} */
+
+#box2{
+    /* display: none; */
 }
