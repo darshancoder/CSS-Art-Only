@@ -39,3 +39,33 @@ div{
 #box5{
     background-color: rgb(88, 88, 255);
 }
+
+
+
+
+.md{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+}
+
+
+@media (width:600px){
+    .md{
+        background-color: red;
+    }
+}
+
+@media (max-width:600){
+    .md{
+        background-color: rgb(16, 246, 16);
+    }
+}
+
+
+@media (min-width:200px) and (max-width:300px) {
+
+    .md{
+        background-color: blue;
+    }
+}
