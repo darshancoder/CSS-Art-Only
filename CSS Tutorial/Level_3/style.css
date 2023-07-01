@@ -1,0 +1,63 @@
+/* #box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    font-size: 10px;
+}
+
+#box2{
+    height: 50px;
+    width: 30%;
+    background-color: yellow;
+    margin-left: 10%;
+    font-size: 2em ;
+    width: 5em;
+}
+ */
+
+ div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+ }
+/* 
+ #box1{
+    position: static; 
+    background-color: red;
+
+ }
+
+ #box2{
+    position: relative;
+    top: 10px;
+    left: 25px  ;
+    background-color: green;
+    z-index: 1;
+
+ }
+ #box3{
+    position: sticky;
+    background-color: black;    
+    top: 10px;
+    left: 20px;
+ }
+
+ #box4{
+   position: fixed;
+  top: 0;
+   width: 100%;
+ } */
+
+ 
+ #box1{
+   background-image: url('./img/cat_photo.jpg');
+   background-size: cover;
+ }
+
+ #box2{
+   background-image: url('./img/butterfly.jpg');
+   background-size: cover;
+   color: whitesmoke;
+ }
